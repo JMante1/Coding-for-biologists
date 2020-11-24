@@ -28,15 +28,6 @@ Coding resources for biologists who are learning to code
    - https://python-graph-gallery.com/
    - https://datavizcatalogue.com/index.html
    - Good packages: matplotlib and plotly
-## Synbiohub Plugins
- - Synbiohub plugin template(this is rather outdated, I would use the visualisation test plugin or the submit test plugin as an example to build off of): https://github.com/SynbioHub/plugin-template
- - Example of a submit plugin:
-   - https://github.com/SynBioHub/Plugin-Submit-Test
- - Example of a visualisation plugin:
-   - python: https://github.com/SynBioHub/Plugin-Visual-Test
-   - Javascript: https://github.com/SynBioHub/Plugin-Visual-Test-js additionally this example serves a file: https://github.com/SynBioHub/Plugin-Visual-Serve-Test-js
- - Synbiohub plugin documentation: https://synbiohub.github.io/api-docs/?python#plugins
- - Plugin Paper: https://pubs.acs.org/doi/10.1021/acssynbio.0c00056
 ## Coding Etiquette
  - Make code modular
    - As a rule of thumb if you are repeating an action more than once it should be a function
