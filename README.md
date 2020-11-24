@@ -1,6 +1,5 @@
 # Coding-for-biologists
 Coding resources for biologists who are learning to code
-# Resources
 ## Python
  - It is good to have an idea of these basic things before diving in and then learning the rest on the fly (I like starting with codeacademy https://www.codecademy.com/learn/learn-python):
    - Sets, lists, dictionaries, strings, numbers, if statements, for statements, print statements. Additionally, you might want to know about pandas dataframes and numpy arrays.
