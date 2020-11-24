@@ -2,7 +2,8 @@
 Coding resources for biologists who are learning to code
 ## Python
  - It is good to have an idea of these basic things before diving in and then learning the rest on the fly (I like starting with codeacademy https://www.codecademy.com/learn/learn-python):
-   - Sets, lists, dictionaries, strings, numbers, if statements, for statements, print statements. Additionally, you might want to know about pandas dataframes and numpy arrays.
+   - Sets, lists, dictionaries, strings, numbers, if statements, for statements, print statements, functions. Additionally, you might want to know about pandas dataframes and numpy arrays.
+   - Classes are very powerful so good to understand too
  - Choosing an IDE for python: https://www.programiz.com/python-programming/ide (personally I use spyder as part of anaconda but am slowly switching to VSCode as it allows flexibility of coding language)
  - Know how to define a function (https://www.geeksforgeeks.org/functions-in-python/)
  - Useful packages:
@@ -57,12 +58,17 @@ Coding resources for biologists who are learning to code
  - Testing!
    - Test as you go along as much as possible
    - Consider weird ‘edge cases’ that might cause issues with the program
+   - Automatic tests can be set up using github actions (https://docs.github.com/en/free-pro-team@latest/actions), this is part of continous integration which is an important software development concept (https://en.wikipedia.org/wiki/Continuous_integration#Rationale)
+ - Packages
+   - You can make your program into a library which you can then use in other programs (in the same way that numpy is a package you use that was written by someone else). To do so your program needs to be separated into functions. Then you can follow the instructions here: https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/
 ## Software Development
  - Github: it is very useful to create an account here and then create a project. You can link it to a file directory using github desktop to back up any code you write
- - Postman: allows you to test APIs (such as the plugin) that you are developing (https://www.postman.com/)
+ - Postman: allows you to test APIs that you are developing (https://www.postman.com/)
+ - Docker: A way of making programs you write easy to install for other people (https://www.docker.com/why-docker)
 ## Internet and APIs
  - Good very simple explanation of how the internet works: https://www.youtube.com/watch?v=oM9yAA09wdc
  - Good explanation of APIs best practices: https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design
+ - API Standard: https://www.openapis.org/
 ## Organisation
  - For papers use zotero: https://www.zotero.org/
  - For documents use google docs
